@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+:root {
+    --main-bg-color: lightslategray;
+    --font1: 'Borel', cursive;
+    --font2: 'Roboto', sans-serif;
+    --font3: 'Oswald', sans-serif;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+    padding-bottom: 5px;
+    padding: 0px 5px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: var(--font3);
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--main-bg-color);
+}
+
+.my-2 {
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.form-input {
+    padding-bottom: 5px;
+    font-size: 16px;
+    padding: 0 5px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0 13px;
+    font-family: var(--font3);
+    align-self: center;
+}
+
+

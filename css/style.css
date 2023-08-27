@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.font3 {
+    font-family: var(--font3);
+}
+
+.navigation {
+    margin-top: 25px;
+    font-family: var(--font1);
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 35px;
+    display: flex;
+}
+
+.nav-left a {
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 18px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font3);
+}
+
+.nav-left ul a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+
+}
+
+.nav-left ul li a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.content-left {
+    font-family: var(--font3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 50px;
+
+}
+
+.content-left h1 {
+    font-family: var(--font1);
+    font-size: larger;
+}
+
+
+
+.content-right {
+    display: flex;
+    width: 30%;
+}
+
+.content-right img {
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 1px;
+}
+
+.home-articles {
+    padding-top: 12px;
+    position: relative;
+}
+
+
+.home-articles h2 {
+    font-family: var(--font1);
+    font-size: larger;
+}
+
+.home-article {
+    display: flex;
+    margin: 25px;
+    padding: 20px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.content {
+    display: flex;
+    height: 325px;
+    margin-top: 32px;
+    border: 2px solid black;
+    border-radius: 20px;
+    align-items: center;
+    background-color: lightslategray;
+}
+
+.footer {
+    height: 50px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+}
+
+.footer a {
+    color: black;
+}
+
+.linka{
+    text-decoration: none;
+    color: black;
+}
